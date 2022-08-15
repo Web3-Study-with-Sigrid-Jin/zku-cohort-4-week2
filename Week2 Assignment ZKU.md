@@ -38,6 +38,18 @@ https://github.com/Web3-Study-with-Sigrid-Jin/zku-cohort-4-week2/tree/master/Par
 
 #### 3. How is Tornado Cash Nova different from Tornado Cash Classic? What are the key upgrades/improvements and what changes in the technical design make these possible?
 
+https://docs.google.com/presentation/d/1zu1E4-QAf1ObwMssgdUgfhlB6GxqSSx8UrZGU6-Gdco/edit#slide=id.geb1295dbe4_0_57
+
+https://hackmd.io/ISJ8sw7HTgysMNe0hW8iTA
+
+https://www.youtube.com/watch?time_continue=2205&v=-N6lI6kD65M&feature=emb_title
+
+```
+https://github.com/ChihChengLiang/poseidon-tornado
+```
+
+![image-20220815135910557](/Users/sigridjin.eth/Library/Application Support/typora-user-images/image-20220815135910557.png)
+
 First, funds are directly linked to a given wallet address. There is no private note or key. Users can access their funds by connecting to the pool with the appropriate address. User can deposit/withdraw arbitrary amounts of ETH, before with Tornado Classic, the user to deposit/withdraw a fixed amount of a given token within each pool. 
 
 Second, custody is either acquired by the act of depositing tokens into the pool or by registering in the pool and receiving shielded transfers from another address. In order to accomplish these things, a random area of bytes is computed using the Pedersen Hash, then sends the token and the 20 MiMC hash to the smart contract. The contract is then inserted into the Merkle Tree.
@@ -85,3 +97,5 @@ https://immutablex.medium.com/ground-up-guide-zkevm-evm-compatibility-rollups-78
 https://trapdoortech.medium.com/zkp-zkevm-a9b046789b4e
 https://hackmd.io/Hy_nqH4yTOmjjS9nbOArgw#Links
 https://immutablex.medium.com/ground-up-guide-zkevm-evm-compatibility-rollups-787b6e88108e 
+
+https://www.youtube.com/watch?time_continue=2205&v=-N6lI6kD65M&feature=emb_title
